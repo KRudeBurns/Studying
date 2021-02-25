@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-ex7_1_13",
+      "appliesTo": "ex7_1_13.cpp",
+      "type": "launch"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# Answers to Questions in Exercise 8.2
+
+![image-20200930134114678](C:\Users\kufre\AppData\Roaming\Typora\typora-user-images\image-20200930134114678.png)
+
+- *(prices+5)
+
+- *(grades+2)
+
+- *(yields+10)
+
+- *(dist+9)
+
+- mile
+
+- *(temp+20)
+
+- *(celsius+16)
+
+- *(num+50)
+
+- *(time + 12)
+
+![image-20200930134413131](C:\Users\kufre\AppData\Roaming\Typora\typora-user-images\image-20200930134413131.png)
+
+- message[6]  
+- amount[0]
+- yrs[10]
+- stocks[2]
+- rates[15]
+- codes[19] 
+
+![image-20200930134612908](C:\Users\kufre\AppData\Roaming\Typora\typora-user-images\image-20200930134612908.png)
+
+- The compiler allocates 5 contiguous blocks of memory with each block holding a double.
+  - 

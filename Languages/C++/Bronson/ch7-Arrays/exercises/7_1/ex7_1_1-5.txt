@@ -1,0 +1,65 @@
+/*
+1. (Practice) Write array declarations for the following:
+a. A list of 100 integer grades
+b. A list of 50 double-precision temperatures
+c. A list of 30 characters, each representing a code
+d. A list of 100 integer years
+e. A list of 32 double-precision velocities
+f. A list of 1000 double-precision distances
+g. A list of 6 integer code numbers
+*/
+
+a. int grades[100];
+b. double temp[50];
+c. char code[30];
+d. int years[100];
+e. dpuble vel[32];
+f. double distances[1000];
+g. int code_num[6];
+
+/*
+2. (Practice) Write correct notation for the first, third, and seventh elements of the following
+arrays:
+a. int grades[20]
+b. double prices[10]
+c. double amounts[16]
+d. int dist[15]
+e. double velocity[25]
+f. double time[100]
+*/
+
+a. grades[0]; grades[2]; grades[6];
+a. prices[0]; prices[2]; prices[6];
+c. amounts[0]; amounts[2]; amounts[7]
+d. dist[0]; dist[2]; dist[7]
+e. velocity[0];velocity[2];velocity[7]
+f. time[0];time[2];time[7]
+
+/*
+3. (Practice) a. Write input statements using cin that can be used to enter values in the first, third, and seventh elements of each array declared in Exercise 2.
+*/
+a. Only doing for (a)grades: int grades[20]
+cin >> grades[0]; cin >> grades[2]; cin >> grades[6];
+
+/*3b. Write a for loop that can be used to enter values for each array declared in Exercise 2.*/
+d. int dist[15]
+for (int i = 0; i < 13; ++i)
+{
+    cout << "enter a distances: ";
+    cin >> dist[i];
+}
+
+/*
+4. (Practice) a. Write output statements using cout that can be used to display values from the first, third, and seventh elements of each array declared in Exercise 2.
+*/
+c. double amounts[16]
+cout << amounts[0] << amounts[2] << amounts[6] << endl;
+
+/*
+4b. (Practice) Write a for loop that can be used to display values for each array declared in Exercise 2.
+*/
+e. double velocity[25]
+for (int i = 0; i < 25; ++i)
+{
+    cout << velocity[i] << endl;
+}

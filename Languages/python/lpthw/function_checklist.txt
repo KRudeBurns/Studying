@@ -1,0 +1,13 @@
+Python:
+1. Did you start your definition with keyword def
+
+2. Does the function name have only characters and _ (underscore characters)
+
+3. Did you close parentheses after the function name, e.g., def _read_()
+
+4. Did you put the colon after the function name and parentheses?, e.g, def _read_():
+
+5. Did you indent all lines in the function with four spaces? No more, no less.
+
+6. Did you separate the function arguments with commas? e.g., def _read_(book, reader):
+
