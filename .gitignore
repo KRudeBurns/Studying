@@ -34,3 +34,6 @@
 #.vsfolders
 .vscode
 .vs
+
+#boiler_plates
+boiler_plate.*
