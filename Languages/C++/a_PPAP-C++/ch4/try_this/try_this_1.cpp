@@ -3,6 +3,7 @@
 #include <vector>
 #include <algorithm>
 #include <cmath>
+#include <windows.h>
 using namespace std;
 inline void keep_window_open()
 {
