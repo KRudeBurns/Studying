@@ -16,7 +16,6 @@ m, in, ft. Assume conversion factors 1m == 100cm, 1in == 2.54cm, 1ft == 12in. Re
 You may consider 12 m (with a space between the number and the unit) equivalent to 12m (without a space).
 
 8. Reject values without units or with “illegal” representations of units, such as y, yard, meter, km, and gallons.
-
 */
 int main()
 {
