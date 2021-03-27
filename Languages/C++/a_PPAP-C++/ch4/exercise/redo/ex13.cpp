@@ -18,30 +18,33 @@ int main()
     int max;
     cout << "What is your max: ";
     cin >> max;
-    
 
-    //push all the numbers to the vector
+    //populate vector to max
     int i;
     for (i = 1; i <= max; ++i)
     {
         numbers.push_back(i);
     }
 
-    cout << "\nThe prime numbers from 0 to " << max << " are:\n";
+    cout << "\nThe prime numbers from " << numbers[0] << " to " << numbers[numbers.size() - 1] << " are:\n";
 
     for (auto v = numbers.begin(); v != numbers.end(); ++v)
-    {
+    {        
         if (*v <= 1)
-            numbers.erase(v), --i;        
+        {
+            
+            numbers.erase(v), --v;
+        }
         else
+        {
             for (auto w = numbers.begin() + *v; w < numbers.end(); ++w)
-            {
+            {                
                 if (*w % *v == 0)
                 {
                     numbers.erase(w), --w;
                 }
             }
-        
+        }
     }
 
     for (auto i = numbers.begin(); i != numbers.end(); ++i)

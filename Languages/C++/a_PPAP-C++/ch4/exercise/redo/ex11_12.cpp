@@ -29,8 +29,7 @@ int main()
     cin >> max_size;
 
     for (int i = 0; i <= max_size; ++i)
-    {
-        cout << i  << " ";
+    {       
         if (i < 3)
         {
             if (is_it_two_or_less(i))
