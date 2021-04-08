@@ -14,7 +14,7 @@ int main() {
     string unit = " ";
     vector <double> entries = {}, u_entries = {};
     vector <string> u_units={};
-    cout << "Enter a number a its unit (cm, m, in, ft): ";
+    cout << "Enter a number and its unit (cm, m, in, ft): ";
     while (cin >> a >> unit)
     {         
         //push unconverted units to vector
