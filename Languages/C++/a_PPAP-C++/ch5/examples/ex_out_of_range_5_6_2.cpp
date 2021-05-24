@@ -6,7 +6,7 @@
 #include <stdexcept>
 using namespace std;
 inline void keep_window_open() { char ch; cin>>ch; }
-
+//for some reason the error checker does not work.
 int main() {
     try
     {
@@ -22,14 +22,16 @@ int main() {
 
         return 0;     
     }
-    catch(out_of_range)
+    catch(std::out_of_range& e)
     {
-        cerr << "Oops! Range error\n";
+        cerr << "Oops! Range error "<< e.what() << "\n";
+        keep_window_open();
         return 1;
     }
     catch(...) //catch all other exceptsion
     {
         cerr << "Exception: something went wrong\n";
+        keep_window_open();
         return 2;
     }
     
