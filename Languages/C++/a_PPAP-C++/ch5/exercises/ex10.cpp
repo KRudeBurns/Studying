@@ -11,9 +11,8 @@ void error(string s)
     throw runtime_error(s);
 }
 /*
-
-9. Modify the program from exercise 8 to write out an error if the result cannot be represented as an int.
-
+10. Modify the program from exercise 8 to use double instead of int. Also, make a vector of doubles containing the N–1
+differences between adjacent values and write out that vector of differences.
 
 */
 int main()
@@ -27,8 +26,8 @@ int main()
         error("Invalid input you will not have good result");
     }
 
-    vector<int> vals;
-    cout << "Pleae enter some integers. (Press | to stop)";
+    vector<double> vals;
+    cout << "Pleae enter some integers. (Press | to stop) ";
 
     int x;
     while (cin >> x)
@@ -53,10 +52,10 @@ int main()
         return -1;
     }
 
-    int sum = 0;
+    double sum = 0;
 
     cout << "Here is your entire data: \n";
-    for (int x : vals)
+    for (double x : vals)
     {
         cout << x << " ";
     }
@@ -69,4 +68,17 @@ int main()
     }
 
     cout << "\nThe sum of your " << num_of_values << " values are : " << sum << "\n";
+
+    vector<double> differences;
+    for(int i = 0; i < vals.size()-1; ++i)
+    {
+        differences.push_back(abs(vals[i+1] - vals[i]));
+    }
+
+    cout << "\nHere is your desired vector of differences \n";
+    for (double x : differences)
+    {
+        cout << x << " ";
+    }
+
 }
