@@ -27,7 +27,7 @@ int main()
     }
 
     vector<double> vals;
-    cout << "Pleae enter some integers. (Press | to stop) ";
+    cout << "Pleae enter some integers. (Press | to stop) ruds";
 
     int x;
     while (cin >> x)
