@@ -57,7 +57,7 @@ int main()
    cout << "---------------------------------\n";
    for (int i = 0; i < SIZE; ++i)
    {       
-       raw[i] = real_rand() + 1;
+       raw[i] = real_rand();
        cout << raw[i] << " ";
    }
    

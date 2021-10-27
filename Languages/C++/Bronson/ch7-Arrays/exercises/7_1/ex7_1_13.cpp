@@ -20,7 +20,7 @@ using std::endl;
 using std::setw;
 using std::mt19937_64;
 using std::mt19937;
-namespace sc = std::chrono;  //chronos is not part of the std::library or something like that.
+namespace sc = std::chrono;  
 
 
 int main()
