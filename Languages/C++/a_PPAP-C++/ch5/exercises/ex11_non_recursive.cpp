@@ -73,8 +73,9 @@ int fib(int n)
         cout << "nth_val_1 = " << nth_value_1 << endl;
         cout << "nth_val_2 = " << nth_value_2 << endl;
 
-        return nth_value;
+        
     }
+    return nth_value;
 }
 
 int main()
