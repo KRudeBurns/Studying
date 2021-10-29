@@ -9,6 +9,7 @@ using namespace std;
 
 int main() {
 
+    cout << "\n--------------------------------------------\n";
     cout << "This program converts miles to kilometers\n";
     cout << "--------------------------------------------\n";
 
@@ -19,7 +20,5 @@ int main() {
     cout << "Enter a number of miles: ";
     cin >> miles;
     miles_to_km = km * miles;
-    cout << miles << "to km ->" << miles_to_km << '\n';
-
-
+    cout << miles << " miles to km -> " << miles_to_km << " km \n";
 }
