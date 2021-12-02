@@ -13,14 +13,14 @@ user inputs for a, b, and c. Since there are two solutions to a quadratic equati
 //get user input
 void get_user_input(double *, double *, double *);
 
-void print_values();
-
 //solve the equation
 void quadratic_formula(double * , double *);
 
+void run();
+
 int main()
 {
-     print_values();
+     run();
 }
 
 
@@ -48,7 +48,7 @@ void quadratic_formula(double * pos_x, double * neg_x)
 
 }
 
-void print_values()
+void run()
 {
      double pos_result, neg_result;
 

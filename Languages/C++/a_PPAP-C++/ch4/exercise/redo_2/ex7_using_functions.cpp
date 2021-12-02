@@ -64,6 +64,7 @@ int return_vec_index(const vector<string> &vec_string_1, const vector<string> &v
     int val;
     auto ret_from_vec_string_1 = find(vec_string_1.begin(), vec_string_1.end(), entry);
     auto ret_from_vec_string_2 = find(vec_string_2.begin(), vec_string_2.end(), entry);
+    
 
     if (ret_from_vec_string_1 != vec_string_1.end())
     {
