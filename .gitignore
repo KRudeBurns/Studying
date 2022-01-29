@@ -32,8 +32,15 @@
 *.app
 
 #.vsfolders
-.vscode
+.vs/
+*vscode/
 .vs
+
+#ignore all .log files
+*.log
+
+#ignore all .temp files
+*.temp
 
 #boiler_plates
 boiler_plate.*
