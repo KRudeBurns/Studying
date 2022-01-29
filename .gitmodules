@@ -1,0 +1,6 @@
+[submodule "programming_principles_practices"]
+	path = programming_principles_practices
+	url = git@github.com:KRudeBurns/programming_principles_practices.git
+[submodule "front_end_things"]
+	path = front_end_things
+	url = git@github.com:KRudeBurns/front_end_things.git
