@@ -4,3 +4,9 @@
 [submodule "front_end_things"]
 	path = front_end_things
 	url = git@github.com:KRudeBurns/front_end_things.git
+[submodule "data-structures-and-algorithms"]
+	path = data-structures-and-algorithms
+	url = git@github.com:KRudeBurns/data-structures-and-algorithms.git
+[submodule "euler1_5"]
+	path = euler1_5
+	url = git@github.com:KRudeBurns/euler1_5.git
